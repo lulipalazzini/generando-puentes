@@ -1,0 +1,69 @@
+:root {
+  --azul-primario: #00a4e5;
+  --amarillo-primario: #fffe00;
+  --verde-primario: #00e000;
+}
+
+body {
+  font-family: "Inter", "Gill Sans";
+}
+
+.nav_texto {
+  font-size: 0.95em;
+}
+
+.inicio_titulo {
+  font-size: 9.5em;
+  font-weight: 800;
+}
+
+.inicio_parrafo {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.otros_titulos {
+  font-size: 4em;
+  font-weight: 600;
+}
+
+.derecha {
+  text-align: right;
+  margin-right: 1em;
+  margin-bottom: -0.55em;
+}
+
+.izquierda {
+  text-align: left;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.nosotros_contenedor {
+  background-color: var(--azul-primario);
+  height: 30em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fotoManos {
+  width: 30%;
+  height: 50%;
+}
+
+.nosotros_parrafo {
+  font-size: 1.25em;
+  text-align: right;
+  color: white;
+}
+
+.abastecimiento_contenedor {
+  background-color: var(--amarillo-primario);
+  height: 30em;
+}
+
+.contacto_contenedor {
+  background-color: var(--verde-primario);
+  height: 30em;
+}
