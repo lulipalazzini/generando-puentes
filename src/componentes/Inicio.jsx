@@ -3,7 +3,10 @@ import { Card, Carousel } from "react-bootstrap";
 
 const Inicio = () => {
   return (
-    <header className="position-relative d-flex justify-content-start align-items-center">
+    <header
+      id="inicio"
+      className="position-relative d-flex justify-content-start align-items-center"
+    >
       <div
         id="homeCard"
         className="card text-start z-3 position-absolute text-white bg-transparent w-50"
@@ -43,7 +46,7 @@ const Inicio = () => {
           <Carousel.Item>
             <div className="overlay z-2"></div>
             <img
-              src="/imagenes/1.png"
+              src="/imagenes/foodTruck.png"
               className="d-block w-100"
               alt="carouselImage1"
             />

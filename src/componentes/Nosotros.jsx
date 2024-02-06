@@ -2,12 +2,17 @@ import {} from "./estilosgp.css";
 
 const Nosotros = () => {
   return (
-    <>
+    <div id="nosotros">
       <h2 className="otros_titulos derecha">NOSOTROS</h2>
       <div className="nosotros_contenedor">
         <img
-          src="/imagenes/que-es-una-ong.jpg"
-          alt="Foto ilustrativa"
+          src="/imagenes/elipseBlanca.png"
+          alt="Elipse Blanca"
+          className="elipse"
+        />
+        <img
+          src="/imagenes/manosChicos.png"
+          alt="Manos juntas"
           className="fotoManos"
         />
         <p className="nosotros_parrafo">
@@ -30,7 +35,7 @@ const Nosotros = () => {
           <strong>Mendoza, Argentina</strong>.
         </p>
       </div>
-    </>
+    </div>
   );
 };
 

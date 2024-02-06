@@ -8,7 +8,7 @@ const Nav = () => {
       data-bs-theme="light"
     >
       <div className="container">
-        <a className="navbar-brand nav_texto" href="">
+        <a className="navbar-brand nav_texto" href="#inicio">
           Ruta Latina
         </a>
         <button
@@ -30,23 +30,23 @@ const Nav = () => {
             <a
               className="nav-link active nav_texto"
               aria-current="page"
-              href=""
+              href="#inicio"
             >
               INICIO
             </a>
-            <a className="nav-link nav_texto" href="">
+            <a className="nav-link nav_texto" href="#nosotros">
               NOSOTROS
             </a>
-            <a className="nav-link nav_texto" href="">
+            <a className="nav-link nav_texto" href="#galeria">
               GALERIA
             </a>
-            <a className="nav-link nav_texto" href="">
+            <a className="nav-link nav_texto" href="#abastecimiento">
               ABASTECIMIENTO
             </a>
-            <a className="nav-link nav_texto" href="">
+            <a className="nav-link nav_texto" href="#colaborar">
               ¿COMO COLABORAR?
             </a>
-            <a className="nav-link nav_texto" href="">
+            <a className="nav-link nav_texto" href="#contacto">
               CONTACTO
             </a>
           </div>

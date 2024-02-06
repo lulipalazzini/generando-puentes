@@ -15,6 +15,7 @@ body {
 .inicio_titulo {
   font-size: 7em;
   font-weight: 800;
+  color: #000000;
 }
 
 .inicio_parrafo {
@@ -47,15 +48,23 @@ body {
   justify-content: space-around;
 }
 
-.fotoManos {
-  width: 30%;
-  height: 50%;
-}
-
 .nosotros_parrafo {
   font-size: 1.25em;
   text-align: right;
   color: white;
+  position: absolute;
+  right: 3em;
+}
+
+.fotoManos {
+  position: relative;
+  right: 40em;
+}
+
+.elipse {
+  position: relative;
+  left: 0.45em;
+  bottom: 2.5em;
 }
 
 .abastecimiento_contenedor {
