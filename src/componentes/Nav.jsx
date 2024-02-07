@@ -40,8 +40,8 @@ const Nav = () => {
             <a className="nav-link nav_texto" href="#galeria">
               GALERIA
             </a>
-            <a className="nav-link nav_texto" href="#abastecimiento">
-              ABASTECIMIENTO
+            <a className="nav-link nav_texto" href="#foodtruck">
+              FOOD TRUCK
             </a>
             <a className="nav-link nav_texto" href="#colaborar">
               ¿COMO COLABORAR?

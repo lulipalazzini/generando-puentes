@@ -12,10 +12,13 @@ const Inicio = () => {
         className="card text-start z-3 position-absolute text-white bg-transparent w-50"
       >
         <Card.Body className="bg-transparent">
-          <Card.Title className="text-white">
+          <Card.Title className="text-black">
             <h1 className="inicio_titulo">
               RUTA <br /> LATINA
             </h1>
+            <h3>
+              Comida latinoamericana con <br /> impacto social
+            </h3>
           </Card.Title>
         </Card.Body>
       </div>
