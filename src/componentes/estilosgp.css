@@ -206,20 +206,20 @@
   height: 0;
 }
 
+.mensual {
+  padding: 4em 3.7em;
+}
+
 .mensualAzul {
   position: relative;
   right: 4.65em;
   bottom: 13.8em;
   z-index: -1;
-  transition: transform 0.5s ease;
+  transition: transform 0.3s ease;
 }
 
 .mensual:hover + .mensualAzul {
   transform: rotate(180deg);
-}
-
-.mensual {
-  padding: 4em 3.7em;
 }
 
 .semestralAmarillo {
