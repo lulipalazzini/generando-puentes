@@ -90,7 +90,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 6em auto;
+  margin-top: 6em;
 }
 
 .logrosNumeros {
@@ -101,6 +101,12 @@
 .logrosDatos {
   text-align: center;
   margin-top: -1em;
+}
+
+/* SECCION GALERIA */
+.imagenGaleria {
+  width: 98vw;
+  margin: 2em auto 6em auto;
 }
 
 /* SECCION APOYA AL FOOD TRUCK */
@@ -202,6 +208,10 @@
   background-color: #ffffff;
 }
 
+.botonRedondo:hover {
+  transform: scale(115%);
+}
+
 .contenedorAnimaciones {
   height: 0;
 }
@@ -215,11 +225,6 @@
   right: 4.65em;
   bottom: 13.8em;
   z-index: -1;
-  transition: transform 0.3s ease;
-}
-
-.mensual:hover + .mensualAzul {
-  transform: rotate(180deg);
 }
 
 .semestralAmarillo {
