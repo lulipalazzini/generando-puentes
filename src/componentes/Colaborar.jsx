@@ -47,6 +47,23 @@ const Colaborar = () => {
             Aporte <br /> anual
           </button>
         </div>
+        <div className="contenedorAnimaciones">
+          <img
+            src="./imagenes/animacionAzul.png"
+            alt="Animacion azul"
+            className="mensualAzul"
+          />
+          <img
+            src="./imagenes/animacionAmarillo.png"
+            alt="Animacion amarillo"
+            className="semestralAmarillo"
+          />
+          <img
+            src="./imagenes/animacionVerde.png"
+            alt="Animacion verde"
+            className="anualVerde"
+          />
+        </div>
         <p className="parrafoColaborar">
           O genera un pago único por <strong>Mercado Pago</strong> al alias:
         </p>

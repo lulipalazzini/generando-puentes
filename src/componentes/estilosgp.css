@@ -10,6 +10,15 @@
   color: #000000;
 }
 
+@keyframes girarBoton {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
 /* BARRA DE NAVEGACION */
 .nav_texto {
   font-size: 0.95em;
@@ -193,16 +202,45 @@
   background-color: #ffffff;
 }
 
+.contenedorAnimaciones {
+  height: 0;
+}
+
+.mensualAzul {
+  position: relative;
+  right: 4.65em;
+  bottom: 13.8em;
+  z-index: -1;
+  transition: transform 0.5s ease;
+}
+
+.mensual:hover + .mensualAzul {
+  transform: rotate(180deg);
+}
+
 .mensual {
-  padding: 5em 4.7em;
+  padding: 4em 3.7em;
+}
+
+.semestralAmarillo {
+  position: relative;
+  bottom: 13.8em;
+  z-index: -1;
 }
 
 .semestral {
-  padding: 5em 4.3em;
+  padding: 4em 3.3em;
+}
+
+.anualVerde {
+  position: relative;
+  bottom: 13.8em;
+  left: 4.8em;
+  z-index: -1;
 }
 
 .anual {
-  padding: 5em;
+  padding: 4em;
 }
 
 .parrafoColaborar {
@@ -223,4 +261,9 @@
 .contacto_contenedor {
   background-color: var(--verde-primario);
   min-height: 30em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }

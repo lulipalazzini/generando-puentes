@@ -6,6 +6,7 @@ import Logros from "./componentes/Logros";
 import Galeria from "./componentes/Galeria";
 import Foodtruck from "./componentes/Foodtruck";
 import Colaborar from "./componentes/Colaborar";
+import Sponsors from "./componentes/Sponsors";
 import Contacto from "./componentes/Contacto";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Galeria></Galeria>
       <Foodtruck></Foodtruck>
       <Colaborar></Colaborar>
+      <Sponsors></Sponsors>
       <Contacto></Contacto>
     </>
   );
