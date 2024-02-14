@@ -49,17 +49,17 @@ const Colaborar = () => {
         </div>
         <div className="contenedorAnimaciones">
           <img
-            src="./imagenes/animacionAzul.png"
+            src="./imagenes/animacionAzulprueba1.png"
             alt="Animacion azul"
             className="mensualAzul"
           />
           <img
-            src="./imagenes/animacionAmarillo.png"
+            src="./imagenes/animacionAmarilloprueba1.png"
             alt="Animacion amarillo"
             className="semestralAmarillo"
           />
           <img
-            src="./imagenes/animacionVerde.png"
+            src="./imagenes/animacionVerdeprueba1.png"
             alt="Animacion verde"
             className="anualVerde"
           />

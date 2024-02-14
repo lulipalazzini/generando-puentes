@@ -224,13 +224,21 @@
   position: relative;
   right: 4.65em;
   bottom: 13.8em;
-  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+.mensualAzul:hover {
+  transform: rotate(180deg);
 }
 
 .semestralAmarillo {
   position: relative;
   bottom: 13.8em;
-  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+.semestralAmarillo:hover {
+  transform: rotate(180deg);
 }
 
 .semestral {
@@ -241,7 +249,11 @@
   position: relative;
   bottom: 13.8em;
   left: 4.8em;
-  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+.anualVerde:hover {
+  transform: rotate(180deg);
 }
 
 .anual {
