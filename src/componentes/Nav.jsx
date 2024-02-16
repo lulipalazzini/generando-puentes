@@ -9,7 +9,7 @@ const Nav = () => {
     >
       <div className="container">
         <a className="navbar-brand nav_texto" href="#inicio">
-          Ruta Latina
+          <img src="./imagenes/logo.png" alt="Logo Ruta Latina" />
         </a>
         <button
           className="navbar-toggler"
