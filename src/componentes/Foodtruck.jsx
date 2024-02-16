@@ -30,7 +30,7 @@ const FoodTruck = () => {
           <h2 className="empresaFoodTruck">
             ¿Cómo tu empresa puede ayudarnos?
           </h2>
-          <p>
+          <p className="textoFoodTruck">
             Únete a nuestra causa colaborando con
             <strong> donaciones de descartables y alimentos</strong> para
             comercializar en diversas exposiciones, ferias y festivales durante
@@ -48,7 +48,7 @@ const FoodTruck = () => {
             <br />
           </p>
           <div className="eventos">
-            <p>
+            <p className="textoFoodTruck">
               - Carnavales (Febrero)
               <br />
               <br />- Vendimias
@@ -58,7 +58,7 @@ const FoodTruck = () => {
               <br />
               <br />- Fechas patrias
             </p>
-            <p>
+            <p className="textoFoodTruck">
               - Dia de la niñez (Agosto)
               <br />
               <br />- Aniversario Generando Puentes (17 de Agosto)

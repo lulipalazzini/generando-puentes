@@ -6,9 +6,17 @@ const Contacto = () => {
       <h2 className="otros_titulos derecha">CONTACTO</h2>
       <div className="contacto_contenedor">
         <div className="iconos">
-          <img src="imagenes/iconoFacebook.png" alt="Facebook" />
-          <img src="imagenes/iconoInstagram.png" alt="Instagram" />
-          <img src="imagenes/iconoWeb.png" alt="Pagina Web" />
+          <img
+            src="imagenes/iconoFacebook.png"
+            alt="Facebook"
+            className="icono"
+          />
+          <img
+            src="imagenes/iconoInstagram.png"
+            alt="Instagram"
+            className="icono"
+          />
+          <img src="imagenes/iconoWeb.png" alt="Pagina Web" className="icono" />
         </div>
         <p className="white">
           <br />

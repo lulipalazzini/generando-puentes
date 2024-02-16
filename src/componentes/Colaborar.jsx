@@ -32,7 +32,7 @@ const Colaborar = () => {
       </div>
       <div className="contenedorDosColaborar">
         <h2 className="apoyoColaborar">¡Contamos con tu apoyo!</h2>
-        <p>
+        <p className="textoApoyoColaborar">
           Participá por medio de un aporte regular a través de los siguientes
           links:
         </p>

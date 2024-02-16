@@ -10,15 +10,6 @@
   color: #000000;
 }
 
-@keyframes girarBoton {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(180deg);
-  }
-}
-
 /* BARRA DE NAVEGACION */
 .nav_texto {
   font-size: 0.95em;
@@ -208,10 +199,6 @@
   background-color: #ffffff;
 }
 
-.botonRedondo:hover {
-  transform: scale(115%);
-}
-
 .contenedorAnimaciones {
   height: 0;
 }
@@ -274,6 +261,17 @@
   border: none;
 }
 
+/* SECCION SPONSORS */
+.sponsor_contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fotos {
+  margin: 3em auto;
+}
+
 /* SECCION CONTACTO */
 .contacto_contenedor {
   background-color: var(--verde-primario);
@@ -283,4 +281,166 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+}
+
+/* ESTILOS PARA CELULAR */
+@media (max-width: 800px) {
+  /* seccion inicio */
+  .inicio_titulo {
+    font-size: 2em;
+  }
+
+  .inicio_parrafo {
+    font-size: 0.5em;
+  }
+
+  .otros_titulos {
+    font-size: 1.5em;
+  }
+
+  /* seccion nosotros */
+  .nosotros_contenedor {
+    display: flex;
+    align-items: center;
+    height: 18em;
+  }
+
+  .nosotros_parrafo {
+    font-size: 0.6em;
+  }
+
+  .fotoManos {
+    position: relative;
+    right: 8rem;
+    top: 8rem;
+    width: 30%;
+  }
+
+  .elipseBlanca {
+    display: none;
+  }
+
+  /* seccion logros */
+  .logrosImg {
+    width: 50%;
+  }
+
+  .logrosNumeros {
+    font-size: 1.5em;
+  }
+
+  .logrosDatos {
+    font-size: 0.5em;
+  }
+
+  /* seccion apoya al food truck */
+  .foodtruck_contenedor {
+    height: auto;
+  }
+
+  .titulo_anexo {
+    padding-right: 1.3em;
+    font-size: 0.7em;
+  }
+
+  .foodtruck_texto {
+    font-size: 0.6em;
+    margin-top: 2em;
+  }
+
+  .elipseVerde {
+    display: none;
+  }
+
+  .fotoFoodTruck {
+    position: relative;
+    right: 0;
+    bottom: 2rem;
+    width: 30%;
+  }
+
+  .contenedorDosFoodTruck {
+    padding: 1rem 3.5rem;
+  }
+
+  .empresaFoodTruck {
+    font-size: 1em;
+  }
+
+  .textoFoodTruck {
+    font-size: 0.5em;
+  }
+
+  .eventos {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* seccion colaborar */
+  .contenedorUnoColaborar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .textoColaborar {
+    font-size: 0.5em;
+  }
+
+  .elipseAzul {
+    display: none;
+  }
+
+  .manosJuntas {
+    position: relative;
+    left: -0.5em;
+    bottom: 3em;
+    width: 25%;
+  }
+
+  .apoyoColaborar {
+    font-size: 1em;
+  }
+
+  .textoApoyoColaborar {
+    font-size: 0.5em;
+  }
+
+  .botonRedondo {
+    margin: 1em 1.5em;
+    font-size: 0.5em;
+  }
+
+  .mensualAzul {
+    display: none;
+  }
+
+  .semestralAmarillo {
+    display: none;
+  }
+
+  .anualVerde {
+    display: none;
+  }
+
+  .parrafoColaborar {
+    font-size: 0.6em;
+  }
+
+  .aliasColaborar {
+    font-size: 0.6em;
+    border-radius: 8px;
+  }
+
+  /* seccion contacto */
+  .contacto_contenedor {
+    min-height: 30em;
+    font-size: 0.5em;
+  }
+
+  .icono {
+    width: 15%;
+  }
 }

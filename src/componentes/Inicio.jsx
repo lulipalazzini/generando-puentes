@@ -16,7 +16,7 @@ const Inicio = () => {
             <h1 className="inicio_titulo">
               RUTA <br /> LATINA
             </h1>
-            <h3>
+            <h3 className="inicio_parrafo">
               Comida latinoamericana con <br /> impacto social
             </h3>
           </Card.Title>
@@ -36,14 +36,6 @@ const Inicio = () => {
             data-bs-slide-to="1"
             aria-label="Slide 2"
           ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselFade"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-            className="active"
-            aria-current="true"
-          ></button>
         </div>
         <Carousel fade>
           <Carousel.Item>
@@ -57,17 +49,9 @@ const Inicio = () => {
           <Carousel.Item>
             <div className="overlay z-2"></div>
             <img
-              src="/imagenes/2.png"
+              src="/imagenes/foodTruck2.png"
               className="d-block w-100"
               alt="carouselImage2"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <div className="overlay z-2"></div>
-            <img
-              src="/imagenes/3.png"
-              className="d-block w-100"
-              alt="carouselImage3"
             />
           </Carousel.Item>
         </Carousel>

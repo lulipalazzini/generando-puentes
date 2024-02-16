@@ -7,7 +7,11 @@ const Logros = () => {
       <Row>
         <Col>
           <div className="logros">
-            <img src="./imagenes/corazonManos.png" alt="Corazon manos" />
+            <img
+              src="./imagenes/corazonManos.png"
+              alt="Corazon manos"
+              className="logrosImg"
+            />
             <p className="logrosNumeros">470</p>
             <p className="logrosDatos">
               Personas <br /> involucradas en las <br /> actividades
@@ -16,7 +20,11 @@ const Logros = () => {
         </Col>
         <Col>
           <div className="logros">
-            <img src="./imagenes/mundoMarca.png" alt="Mundito" />
+            <img
+              src="./imagenes/mundoMarca.png"
+              alt="Mundito"
+              className="logrosImg"
+            />
             <p className="logrosNumeros">11</p>
             <p className="logrosDatos">
               Barrios <br /> populares
@@ -25,7 +33,11 @@ const Logros = () => {
         </Col>
         <Col>
           <div className="logros">
-            <img src="./imagenes/edificios.png" alt="Edificios" />
+            <img
+              src="./imagenes/edificios.png"
+              alt="Edificios"
+              className="logrosImg"
+            />
             <p className="logrosNumeros">7</p>
             <p className="logrosDatos">
               Proyectos de Obras <br /> de Integracion Socio <br /> Urbana
@@ -34,7 +46,11 @@ const Logros = () => {
         </Col>
         <Col>
           <div className="logros">
-            <img src="./imagenes/futbol.png" alt="Futbol" />
+            <img
+              src="./imagenes/futbol.png"
+              alt="Futbol"
+              className="logrosImg"
+            />
             <p className="logrosNumeros">6</p>
             <p className="logrosDatos">
               Escuelas de futbol <br /> con 250 personas
