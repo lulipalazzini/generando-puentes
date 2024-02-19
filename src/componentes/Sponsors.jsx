@@ -17,15 +17,8 @@ const Sponsors = () => {
           <Carousel.Item>
             <img
               className="d-block w-50 fotos"
-              src="/imagenes/marcas.png"
+              src="/imagenes/marcas2.png"
               alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-50 fotos"
-              src="/imagenes/marcas.png"
-              alt="Third slide"
             />
           </Carousel.Item>
         </Carousel>

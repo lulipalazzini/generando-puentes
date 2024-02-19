@@ -6,7 +6,7 @@ const Galeria = () => {
       <h2 className="otros_titulos izquierda">GALERIA</h2>
       <img
         src="./imagenes/imagenGaleria.png"
-        alt="Imagen provisoria"
+        alt="Galeria de imagenes"
         className="imagenGaleria"
       />
     </div>
