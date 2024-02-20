@@ -37,38 +37,40 @@ const Colaborar = () => {
           links:
         </p>
         <div className="botonesColaborar">
-          <a href="https://bit.ly/3fUjEez">
-            <button className="botonRedondo mensual">
-              Aporte <br /> mensual
-            </button>
-          </a>
-          <a href="https://bit.ly/3izJ0jx">
-            <button className="botonRedondo semestral">
-              Aporte <br /> semestral
-            </button>
-          </a>
-          <a href="https://bit.ly/3jHU6T8">
-            <button className="botonRedondo anual">
-              Aporte <br /> anual
-            </button>
-          </a>
+          <button className="botonRedondo mensual">
+            Aporte <br /> mensual
+          </button>
+
+          <button className="botonRedondo semestral">
+            Aporte <br /> semestral
+          </button>
+
+          <button className="botonRedondo anual">
+            Aporte <br /> anual
+          </button>
         </div>
         <div className="contenedorAnimaciones">
-          <img
-            src="./imagenes/animacionAzulprueba1.png"
-            alt="Animacion azul"
-            className="mensualAzul"
-          />
-          <img
-            src="./imagenes/animacionAmarilloprueba1.png"
-            alt="Animacion amarillo"
-            className="semestralAmarillo"
-          />
-          <img
-            src="./imagenes/animacionVerdeprueba1.png"
-            alt="Animacion verde"
-            className="anualVerde"
-          />
+          <a href="https://bit.ly/3fUjEez">
+            <img
+              src="./imagenes/animacionAzulprueba1.png"
+              alt="Animacion azul"
+              className="mensualAzul"
+            />
+          </a>
+          <a href="https://bit.ly/3izJ0jx">
+            <img
+              src="./imagenes/animacionAmarilloprueba1.png"
+              alt="Animacion amarillo"
+              className="semestralAmarillo"
+            />
+          </a>
+          <a href="https://bit.ly/3jHU6T8">
+            <img
+              src="./imagenes/animacionVerdeprueba1.png"
+              alt="Animacion verde"
+              className="anualVerde"
+            />
+          </a>
         </div>
         <p className="parrafoColaborar">
           O genera un pago único por <strong>Mercado Pago</strong> al alias:
