@@ -50,21 +50,21 @@ const Colaborar = () => {
           </button>
         </div>
         <div className="contenedorAnimaciones">
-          <a href="https://bit.ly/3fUjEez">
+          <a href="https://bit.ly/3fUjEez" target="_blank" rel="noreferrer">
             <img
               src="./imagenes/animacionAzulprueba1.png"
               alt="Animacion azul"
               className="mensualAzul"
             />
           </a>
-          <a href="https://bit.ly/3izJ0jx">
+          <a href="https://bit.ly/3izJ0jx" target="_blank" rel="noreferrer">
             <img
               src="./imagenes/animacionAmarilloprueba1.png"
               alt="Animacion amarillo"
               className="semestralAmarillo"
             />
           </a>
-          <a href="https://bit.ly/3jHU6T8">
+          <a href="https://bit.ly/3jHU6T8" target="_blank" rel="noreferrer">
             <img
               src="./imagenes/animacionVerdeprueba1.png"
               alt="Animacion verde"
