@@ -37,15 +37,21 @@ const Colaborar = () => {
           links:
         </p>
         <div className="botonesColaborar">
-          <button className="botonRedondo mensual">
-            Aporte <br /> mensual
-          </button>
-          <button className="botonRedondo semestral">
-            Aporte <br /> semestral
-          </button>
-          <button className="botonRedondo anual">
-            Aporte <br /> anual
-          </button>
+          <a href="https://bit.ly/3fUjEez">
+            <button className="botonRedondo mensual">
+              Aporte <br /> mensual
+            </button>
+          </a>
+          <a href="https://bit.ly/3izJ0jx">
+            <button className="botonRedondo semestral">
+              Aporte <br /> semestral
+            </button>
+          </a>
+          <a href="https://bit.ly/3jHU6T8">
+            <button className="botonRedondo anual">
+              Aporte <br /> anual
+            </button>
+          </a>
         </div>
         <div className="contenedorAnimaciones">
           <img
